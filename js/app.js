@@ -14,6 +14,7 @@ array,object
 // A list of student names from our class, each with a location and each with a list of favorite tv shows.
 array,object
 */
+/*
 //2. Take it Easy
 // Make an array that holds all of the colors of the rainbow.
 colors=['red','orange','yellow','green','blue','indigo','violet']
@@ -30,7 +31,8 @@ const dominic={
 }
 // Write code that will access your hobby from the object that you just created.
 console.log(dominic.hobby)
-
+*/
+/*
 //3. Crazy Object!
 
 const crazyObject = {
@@ -75,3 +77,26 @@ console.log(crazyObject.larry.characters[2].favourtieHobby)
 console.log(crazyObject.larry.nicknames[1])
 // The object the contains the name funkhauser
 console.log(crazyObject.larry.characters[1].name)
+
+*/
+//4. Object-ception
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+//Change the value of limbo to null.
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo=null
+console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo)
