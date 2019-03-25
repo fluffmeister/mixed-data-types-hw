@@ -1,4 +1,5 @@
 
+/*
 //1. Data types
 // A light switch that can be either on or off.
 boolean
@@ -21,5 +22,11 @@ console.log(colors)
 colors[4]
 // Make an object that is called your name and holds the information about your favorite food, a hobby, 
 //the name of the town that you live in currently, and your favorite datatype.
-
+const dominic={
+    food:'sushi',
+    hobby:'video games',
+    town:'Los Angeles',
+    datatype:'objects'
+}
 // Write code that will access your hobby from the object that you just created.
+console.log(dominic.hobby)
